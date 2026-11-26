@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SPDX-FileCopyrightText: 2014-2026 interactive instruments GmbH
+  SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<!-- Verweise auf die Datenquellen, die der Tomcat global in conf/server.xml
+     (GlobalNamingResources) mit Adresse und Zugangsdaten definiert; Zugangsdaten gehören
+     nicht in die Webanwendung. Für die optionalen Datenbanken für Altdaten und Planung
+     kommen ResourceLinks für jdbc/OKSTRA-ALT, jdbc/SVC-ALT, jdbc/OKSTRA-PLANUNG und
+     jdbc/SVC-PLANUNG hinzu (siehe web.xml). -->
+<Context path="/Okstra2Db">
+
+	<ResourceLink name="jdbc/OKSTRA-DB" global="de.ii.datasource.okstra-db" type="javax.sql.DataSource"/>
+	<ResourceLink name="jdbc/SVC-VERMDB" global="de.ii.datasource.svc-vermdb" type="javax.sql.DataSource"/>
+  
+</Context>

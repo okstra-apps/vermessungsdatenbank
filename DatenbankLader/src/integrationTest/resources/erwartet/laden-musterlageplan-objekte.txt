@@ -1,0 +1,13 @@
+allgemeines_flaechenobjekt: 1
+allgemeines_linienobjekt: 12
+allgemeines_punktobjekt: 63
+asb_datum: 6
+baum: 2
+beschriftung: 25
+boeschung: 3
+boeschungskantenabschnitt: 6
+koordinatenreferenzsystem: 1
+rgb_farbe: 25
+symbol: 1
+textausgestaltung: 25
+trasse: 1

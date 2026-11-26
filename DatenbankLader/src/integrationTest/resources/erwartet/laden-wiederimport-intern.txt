@@ -1,0 +1,10 @@
+Status 1012100
+asb_datum: 6
+koordinatenreferenzsystem: 1
+rgb_farbe: 25
+textausgestaltung: 25
+
+DBVerbindung: DatenÄndern(string) fehlgeschlagen! ERROR: syntax error at or near "16"
+Fehler bei Übernahme eines Fachobjekte mit der Kennung <N>
+Fehler bei Übertragung des Fachobjekts <N>. Es wird empfohlen, die Daten dieses Auftrags wieder zu löschen.
+DBVerbindung: DatenLöschen(string) fehlgeschlagen! ERROR: cannot delete from view "zwischentab"

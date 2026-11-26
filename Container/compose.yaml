@@ -1,0 +1,94 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Die Vermessungsdatenbank mit PostgreSQL/PostGIS. Start im Repository:
+#
+#   docker compose -f Container/compose.yaml up -d
+#
+# Beim ersten Start entstehen die Kennwörter, die Datenbank und das Image. Die
+# Konfiguration (.env, gitter/, fbliste/) liegt im Konfigurationsverzeichnis, ohne Angabe
+# Container/; ein Verzeichnis außerhalb des Repositorys nennt VERMDB_KONFIG in dessen .env:
+#
+#   docker compose --env-file /etc/vermdb/.env -f Container/compose.yaml up -d
+#
+# (siehe README.md). Gegen eine vorhandene Datenbank: compose.extern.yaml.
+name: vermdb
+
+x-vermdb-image: &vermdb-image
+  image: vermdb:${VERMDB_TAG:-latest}
+  build:
+    context: ..
+    dockerfile: Container/Dockerfile
+  platform: linux/amd64
+
+services:
+  # Einmalig: Kennwörter der Datenbank im Volume kennwoerter
+  kennwoerter:
+    <<: *vermdb-image
+    user: "0"
+    command: ["/usr/local/bin/vermdb.sh", "kennwoerter"]
+    volumes:
+      - kennwoerter:/kennwoerter
+
+  datenbank:
+    image: postgis/postgis:18-3.6@sha256:4a43e3c3e5d55b9208240fc71db543b79c638766280c625a425bd0a2390989c4
+    platform: linux/amd64
+    restart: unless-stopped
+    depends_on:
+      kennwoerter: {condition: service_completed_successfully}
+    environment:
+      POSTGRES_PASSWORD_FILE: /kennwoerter/superuser
+    volumes:
+      - datenbank:/var/lib/postgresql
+      - kennwoerter:/kennwoerter:ro
+    healthcheck:
+      # Über TCP: Während der Ersteinrichtung des Image läuft PostgreSQL nur am Socket
+      test: ["CMD", "pg_isready", "-h", "127.0.0.1", "-U", "postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+
+  # Bei jedem Start: Rolle, Datenbank, Schemata und Fachbedeutungslisten, soweit sie
+  # fehlen
+  einrichtung:
+    <<: *vermdb-image
+    user: "0"
+    command: ["/usr/local/bin/vermdb.sh", "einrichten"]
+    depends_on:
+      datenbank: {condition: service_healthy}
+    env_file: [{path: "${VERMDB_KONFIG:-.}/.env", required: false}]
+    environment:
+      VERMDB_DB_PASSWORT_DATEI: /kennwoerter/anwendung
+      VERMDB_DB_SUPERUSER_PASSWORT_DATEI: /kennwoerter/superuser
+    volumes:
+      - kennwoerter:/kennwoerter:ro
+      # Legt die Verzeichnisse darin an und übergibt sie dem Benutzer vermdb (UID 10001)
+      - ${VERMDB_DATEN:-${VERMDB_KONFIG:-.}/daten}:/var/home/Daten
+
+  vermdb:
+    <<: *vermdb-image
+    restart: unless-stopped
+    depends_on:
+      einrichtung: {condition: service_completed_successfully}
+    # Alle Variablen aus .env gehen in den Container, darunter die VERMDB_… für die
+    # web.xml (siehe README.md)
+    env_file: [{path: "${VERMDB_KONFIG:-.}/.env", required: false}]
+    environment:
+      VERMDB_DB_URL: jdbc:postgresql://datenbank:5432/${VERMDB_DB_NAME:-vermdb}
+      VERMDB_DB_BENUTZER: ${VERMDB_DB_BENUTZER:-vermdb}
+      VERMDB_DB_PASSWORT_DATEI: /kennwoerter/anwendung
+    volumes:
+      # Uploads, Rückgaben, Protokolle, Datenfehler: ein Verzeichnis des Rechners (ohne
+      # Angabe daten/ im Konfigurationsverzeichnis); VERMDB_DATEN=daten nimmt das Volume
+      - ${VERMDB_DATEN:-${VERMDB_KONFIG:-.}/daten}:/var/home/Daten
+      - kennwoerter:/kennwoerter:ro
+      # Eigene Gitterdateien mit gitter.cfg (Container/gitter/README.md); die des Image
+      # schaltet VERMDB_GITTER_IMAGE in .env ein (Container/gitter-image/README.md)
+      - ${VERMDB_GITTER:-${VERMDB_KONFIG:-.}/gitter}:/opt/vermdb/gitter:ro
+      # Eigene Fachbedeutungslisten (Container/fbliste/README.md)
+      - ${VERMDB_FBLISTEN:-${VERMDB_KONFIG:-.}/fbliste}:/opt/vermdb/fbliste:ro
+    ports: ["${VERMDB_PORT:-127.0.0.1:8099}:8080"]
+
+volumes:
+  daten:
+  datenbank:
+  kennwoerter:

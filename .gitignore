@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Bau mit Gradle
+build/
+.gradle/
+
+# Archive des OKLABI-Release zum Übersetzen (siehe oklabi-release/README.md)
+/oklabi-release/*
+!/oklabi-release/README.md
+
+# Absturzprotokolle der JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# Interner Teil (eigenes Repository) und Arbeitsunterlagen, nicht zur Veröffentlichung
+/intern/
+/dok/
+
+# macOS
+.DS_Store

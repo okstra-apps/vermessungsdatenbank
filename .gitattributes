@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Testdaten unverändert lassen: Zeichensatz (Windows-1252, UTF-8) und Zeilenenden (CRLF)
+# gehören zum Testfall
+testdaten/*.xml -text -diff
+testdaten/*.cte -text -diff
+Container/gitter-image/*.gsb binary

@@ -1,0 +1,29 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Build-Kontext ist das Repository; gebraucht werden nur diese Dateien. Quellen und
+# Gradle für BAU=docker, die Ergebnisse von ./gradlew build für BAU=lokal.
+*
+!build.gradle.kts
+!settings.gradle.kts
+!gradle.properties
+!gradlew
+!gradle/
+!DatenbankLader/build.gradle.kts
+!DatenbankLader/src/
+!DatenbankLader/build/libs/Okstra2Db.war
+!DatenbankLader/build/tomcat-lib/
+!DatenbankLader/build/reports/cyclonedx/bom.json
+!DatenbankLader/build/lizenzen/
+!oklabi-release/
+!Datenbank/*.sql
+!Datenbank/fbliste.py
+!Container/bau/
+!Container/oklabi/
+!Container/conf/
+!Container/vermdb.sh
+!Container/gitter-image/*.gsb
+!Container/gitter-image/*.cfg
+!Container/gitter-image/README.md
+!okws/beispiel-wfs.xml
+!LICENSES/
+!NOTICE

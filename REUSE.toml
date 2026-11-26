@@ -1,0 +1,73 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Lizenzangaben für Dateien, die keinen eigenen Kopf tragen können
+# (REUSE-Spezifikation 3.3, https://reuse.software/spec-3.3/)
+version = 1
+
+# Gradle Wrapper, unverändert aus der Gradle-Distribution
+[[annotations]]
+path = ["gradle/wrapper/gradle-wrapper.jar", "gradle/wrapper/gradle-wrapper.properties"]
+SPDX-FileCopyrightText = "2015 the original authors"
+SPDX-License-Identifier = "Apache-2.0"
+
+# Prüfsummen der Abhängigkeiten, von Gradle erzeugt und gepflegt
+[[annotations]]
+path = "gradle/verification-metadata.xml"
+SPDX-FileCopyrightText = "2026 interactive instruments GmbH"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+# Beispieldatensätze der Landesstraßenbaubehörde Sachsen-Anhalt und daraus abgeleitete
+# Testdateien (testdaten/README.md); die Referenzdateien der Integrationstests enthalten
+# Auszüge daraus. Namensnennung je Datensatz, wie von der LSBB angegeben.
+
+# Beispieldatensatz vom 11.11.2026: Namensnennung „Landesstraßenbaubehörde Sachsen-Anhalt“
+[[annotations]]
+path = [
+  "testdaten/beispiel.xml",
+  "testdaten/beispiel.cte",
+  "testdaten/fehler-*.xml",
+  "okws/beispiel-wfs.xml",
+  "DatenbankLader/src/integrationTest/resources/erwartet/*-beispiel-*.txt",
+  "DatenbankLader/src/integrationTest/resources/erwartet/laden-fachbedeutung-*.txt",
+  "DatenbankLader/src/integrationTest/resources/erwartet/laden-schema-*.txt",
+]
+SPDX-FileCopyrightText = "2026 Landesstraßenbaubehörde Sachsen-Anhalt"
+SPDX-License-Identifier = "DL-DE-BY-2.0"
+
+# Musterlageplan vom 12.11.2026: Namensnennung „© GeoBasis-DE / LVermGeo ST“
+[[annotations]]
+path = [
+  "testdaten/musterlageplan*.xml",
+  "DatenbankLader/src/integrationTest/resources/erwartet/*-musterlageplan-*.txt",
+  "DatenbankLader/src/integrationTest/resources/erwartet/laden-wiederimport-*.txt",
+]
+SPDX-FileCopyrightText = "GeoBasis-DE / LVermGeo ST"
+SPDX-License-Identifier = "DL-DE-BY-2.0"
+
+# Referenzdateien ohne Inhalt aus den Datensätzen; Daten der Tests stehen wie die
+# Datensätze unter der Datenlizenz Deutschland, der Code unter der AGPL
+[[annotations]]
+path = [
+  "DatenbankLader/src/integrationTest/resources/erwartet/abfragen-areas.txt",
+  "DatenbankLader/src/integrationTest/resources/erwartet/laden-ohne-datei.txt",
+]
+SPDX-FileCopyrightText = "2026 interactive instruments GmbH"
+SPDX-License-Identifier = "DL-DE-BY-2.0"
+
+# Gitterdateien, unverändert (Container/gitter-image/README.md), und ihre Einträge für die
+# OKLABI
+[[annotations]]
+path = "Container/gitter-image/NTv2LSBB_LSA.gsb"
+SPDX-FileCopyrightText = "2012 Landesstraßenbaubehörde Sachsen-Anhalt"
+SPDX-License-Identifier = "DL-DE-BY-2.0"
+
+[[annotations]]
+path = "Container/gitter-image/HeTa2010.gsb"
+SPDX-FileCopyrightText = "Hessische Verwaltung für Bodenmanagement und Geoinformation"
+SPDX-License-Identifier = "DL-DE-BY-2.0"
+
+[[annotations]]
+path = "Container/gitter-image/*.cfg"
+SPDX-FileCopyrightText = "2026 interactive instruments GmbH"
+SPDX-License-Identifier = "AGPL-3.0-or-later"

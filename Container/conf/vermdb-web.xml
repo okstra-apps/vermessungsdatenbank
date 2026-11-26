@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+  SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<!-- web.xml des Kontexts /vermdb (siehe vermdb.xml): Dateien nur ausliefern; auch
+     Dateien mit der Endung .jsp oder .jspx gehen an das DefaultServlet statt an den
+     JSP-Übersetzer aus der globalen conf/web.xml. Die Zuordnung "/" ist zu wiederholen:
+     Eigene Zuordnungen des DefaultServlet ersetzen die der globalen conf/web.xml.
+     Protokolle und erledigt.txt schreibt der Dienst im Container in UTF-8. -->
+<web-app version="6.1" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd">
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/</url-pattern>
+        <url-pattern>*.jsp</url-pattern>
+        <url-pattern>*.jspx</url-pattern>
+    </servlet-mapping>
+    <mime-mapping>
+        <extension>log</extension>
+        <mime-type>text/plain;charset=UTF-8</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+        <extension>txt</extension>
+        <mime-type>text/plain;charset=UTF-8</mime-type>
+    </mime-mapping>
+</web-app>

@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<!-- generiert von OKLABI, (c) 2009-2026 Bundesanstalt für Straßenwesen -->
+<gml:FeatureCollection
+ xmlns:okstra="http://www.okstra.de/okstra/2.022"
+ xmlns:okstra-basis="http://www.okstra.de/okstra/2.022/okstra-basis"
+ xmlns:okstra-typen="http://www.okstra.de/okstra/2.022/okstra-typen"
+ xmlns:gml="http://www.opengis.net/gml/3.2"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xsi:schemaLocation="http://www.okstra.de/okstra/2.022 http://www.okstra.de/schema/2022/okstra.xsd"
+ gml:id="FC_48478"
+>
+    <gml:metaDataProperty>
+        <okstra-basis:OKSTRAMetaDaten>
+            <okstra-basis:implementation_level>1</okstra-basis:implementation_level>
+            <okstra-basis:name>beispiel.xml</okstra-basis:name>
+            <okstra-basis:time_stamp>2026-11-11T16:37:12</okstra-basis:time_stamp>
+            <okstra-basis:author>Beispiel</okstra-basis:author>
+            <okstra-basis:preprocessor_version>OKLABI 1.6.2.1, VS 2022, 64 Bit</okstra-basis:preprocessor_version>
+            <okstra-basis:originating_system>VESTRA®</okstra-basis:originating_system>
+            <okstra-basis:schema_identifiers>Fachbedeutungen Sachsen-Anhalt 3.5</okstra-basis:schema_identifiers>
+            <okstra-basis:schema_identifiers>OKSTRA 2.022</okstra-basis:schema_identifiers>
+            <okstra-basis:relRep>beidseitig</okstra-basis:relRep>
+        </okstra-basis:OKSTRAMetaDaten>
+    </gml:metaDataProperty>
+    <gml:boundedBy>
+        <gml:Envelope srsDimension="2">
+            <gml:lowerCorner>4481763.61475 5739893.97221</gml:lowerCorner>
+            <gml:upperCorner>4481881.68808 5740050.4409</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+    <gml:featureMember>
+        <okstra:allgemeines_Flaechenobjekt gml:id="allgemeines_Flaechenobjekt_55402">
+            <okstra:Flaechengeometrie>
+                <gml:MultiSurface gml:id="MultiPolygon.55406.96051">
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="Polygon.55406">
+                            <gml:exterior>
+                                <gml:Ring>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="Curve.55429">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.54895">
+                                                            <gml:pos srsDimension="3">4481827.2026 5739921.51898 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.54934">
+                                                            <gml:pos srsDimension="3">4481829.92318 5739915.4924 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.54973">
+                                                            <gml:pos srsDimension="3">4481827.96023 5739909.91351 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.55012">
+                                                            <gml:pos srsDimension="3">4481822.58797 5739907.22737 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.55051">
+                                                            <gml:pos srsDimension="3">4481817.04351 5739909.53469 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.54804">
+                                                            <gml:pos srsDimension="3">4481814.8395 5739915.52684 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.54818">
+                                                            <gml:pos srsDimension="3">4481817.2157 5739921.03685 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty>
+                                                        <gml:Point gml:id="Point.54856">
+                                                            <gml:pos srsDimension="3">4481822.69128 5739923.24086 0.0</gml:pos>
+                                                        </gml:Point>
+                                                    </gml:pointProperty>
+                                                    <gml:pointProperty xlink:href="#Point.54895"/>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                </gml:Ring>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </okstra:Flaechengeometrie>
+            <okstra:fachliche_Bedeutung>1063.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Flaechenobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_54795">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.54793.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.54793">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty xlink:href="#Point.54804"/>
+                                    <gml:pointProperty xlink:href="#Point.54818"/>
+                                    <gml:pointProperty xlink:href="#Point.54856"/>
+                                    <gml:pointProperty xlink:href="#Point.54895"/>
+                                    <gml:pointProperty xlink:href="#Point.54934"/>
+                                    <gml:pointProperty xlink:href="#Point.54973"/>
+                                    <gml:pointProperty xlink:href="#Point.55012"/>
+                                    <gml:pointProperty xlink:href="#Point.55051"/>
+                                    <gml:pointProperty xlink:href="#Point.54804"/>
+                                    <gml:pointProperty xlink:href="#Point.54804"/>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>1013.F001</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_55140">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.55138.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.55138">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55149">
+                                            <gml:pos srsDimension="3">4481826.51167 5739936.93052 70.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55163">
+                                            <gml:pos srsDimension="3">4481835.15551 5739934.69207 71.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55201">
+                                            <gml:pos srsDimension="3">4481843.97153 5739931.76488 72.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0000.X999</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_55265">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.55263.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.55263">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55274">
+                                            <gml:pos srsDimension="3">4481825.54741 5739934.3477 60.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55288">
+                                            <gml:pos srsDimension="3">4481834.98332 5739930.69731 61.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55326">
+                                            <gml:pos srsDimension="3">4481844.55697 5739927.90787 62.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_55596">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.55594.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.55594">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55605">
+                                            <gml:pos srsDimension="3">4481837.80586 5739914.95565 70.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55619">
+                                            <gml:pos srsDimension="3">4481841.83506 5739925.11474 70.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty xlink:href="#Point.55619"/>
+                                </gml:LineStringSegment>
+                                <gml:Arc>
+                                    <gml:pointProperty xlink:href="#Point.55619"/>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55680">
+                                            <gml:pos srsDimension="3">4481841.11494 5739926.50515 70.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55714">
+                                            <gml:pos srsDimension="3">4481839.66856 5739927.43497 70.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:Arc>
+                                <gml:Arc>
+                                    <gml:pointProperty xlink:href="#Point.55714"/>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55742">
+                                            <gml:pos srsDimension="3">4481835.38998 5739927.0511 71.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.55780">
+                                            <gml:pos srsDimension="3">4481831.15534 5739922.11069 72.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:Arc>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>5296.F002</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_56148">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.56146.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.56146">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.56157">
+                                            <gml:pos srsDimension="3">4481803.49742 5739910.55009 1.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.56171">
+                                            <gml:pos srsDimension="3">4481801.15102 5739923.99432 2.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.56209">
+                                            <gml:pos srsDimension="3">4481817.25873 5739934.52141 3.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.56248">
+                                            <gml:pos srsDimension="3">4481817.25873 5739934.52141 4.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>R352.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_57937">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.57935.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.57935">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.57946">
+                                            <gml:pos srsDimension="3">4481825.2278 5739992.21342 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.57960">
+                                            <gml:pos srsDimension="3">4481856.58041 5739992.39676 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58019">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58017.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58017">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58028">
+                                            <gml:pos srsDimension="3">4481825.5945 5739985.42952 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58042">
+                                            <gml:pos srsDimension="3">4481854.93027 5739985.61287 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58113">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58111.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58111">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58122">
+                                            <gml:pos srsDimension="3">4481824.80471 5740012.31022 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58136">
+                                            <gml:pos srsDimension="3">4481856.15732 5740012.49357 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58195">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58193.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58193">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58204">
+                                            <gml:pos srsDimension="3">4481825.17141 5740005.52632 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58218">
+                                            <gml:pos srsDimension="3">4481854.50718 5740005.70967 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58289">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58287.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58287">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58298">
+                                            <gml:pos srsDimension="3">4481825.65089 5739969.57807 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58312">
+                                            <gml:pos srsDimension="3">4481857.0035 5739969.76142 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58371">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58369.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58369">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58380">
+                                            <gml:pos srsDimension="3">4481826.01759 5739962.79417 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58394">
+                                            <gml:pos srsDimension="3">4481855.35336 5739962.97752 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58465">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58463.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58463">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58474">
+                                            <gml:pos srsDimension="3">4481823.28896 5740033.37817 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58488">
+                                            <gml:pos srsDimension="3">4481855.44385 5740033.58971 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58547">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58545.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58545">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58556">
+                                            <gml:pos srsDimension="3">4481824.34669 5740025.33945 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58570">
+                                            <gml:pos srsDimension="3">4481854.59767 5740025.55099 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58641">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58639.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58639">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58650">
+                                            <gml:pos srsDimension="3">4481822.97235 5740048.41746 65.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58664">
+                                            <gml:pos srsDimension="3">4481834.3036 5740050.4409 70.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58723">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58721.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58721">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty xlink:href="#Point.58664"/>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58732">
+                                            <gml:pos srsDimension="3">4481849.47938 5740049.83387 75.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58791">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58789.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58789">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty xlink:href="#Point.58732"/>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58800">
+                                            <gml:pos srsDimension="3">4481860.2036 5740046.79871 80.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58859">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58857.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58857">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58868">
+                                            <gml:pos srsDimension="3">4481822.97235 5740043.15652 50.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58882">
+                                            <gml:pos srsDimension="3">4481859.59657 5740041.13308 50.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58953">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.58951.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.58951">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58962">
+                                            <gml:pos srsDimension="3">4481763.61475 5739941.12718 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.58976">
+                                            <gml:pos srsDimension="3">4481772.92257 5739954.48187 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.59014">
+                                            <gml:pos srsDimension="3">4481791.23468 5739944.56703 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_59074">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.59072.96053">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.59072">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:pointProperty xlink:href="#Point.58962"/>
+                                    <gml:pointProperty>
+                                        <gml:Point gml:id="Point.59083">
+                                            <gml:pos srsDimension="3">4481775.24952 5739947.50101 0.0</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointProperty>
+                                    <gml:pointProperty xlink:href="#Point.59014"/>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_54781">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.54767">
+                    <gml:pos srsDimension="3">4481846.47214 5739925.19919 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>1</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>3504.F011</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55822">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55808">
+                    <gml:pos srsDimension="3">4481855.46915 5739938.75484 88.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>35</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55848">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55834">
+                    <gml:pos srsDimension="3">4481864.60108 5739938.56459 171.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>36</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55874">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55860">
+                    <gml:pos srsDimension="3">4481873.92326 5739938.65972 70.5</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>37</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55900">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55886">
+                    <gml:pos srsDimension="3">4481874.11351 5739930.3839 72.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>38</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55926">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55912">
+                    <gml:pos srsDimension="3">4481864.88645 5739930.7644 69.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>39</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55952">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55938">
+                    <gml:pos srsDimension="3">4481854.8984 5739930.28878 73.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>40</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55978">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55964">
+                    <gml:pos srsDimension="3">4481854.42278 5739921.82272 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>41</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56004">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.55990">
+                    <gml:pos srsDimension="3">4481864.98158 5739922.20321 71.5</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>42</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56030">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56016">
+                    <gml:pos srsDimension="3">4481874.11351 5739921.91784 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>43</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56056">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56042">
+                    <gml:pos srsDimension="3">4481881.34296 5739938.84997 20.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>44</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56082">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56068">
+                    <gml:pos srsDimension="3">4481881.43808 5739930.47903 21.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>45</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56108">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56094">
+                    <gml:pos srsDimension="3">4481880.77221 5739921.63247 22.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>46</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56134">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56120">
+                    <gml:pos srsDimension="3">4481840.0 5739910.0 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>82219999</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0127.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_57777">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57763">
+                    <gml:pos srsDimension="3">4481803.49742 5739910.55009 1.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>19</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_57803">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57789">
+                    <gml:pos srsDimension="3">4481843.97153 5739931.76488 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>28</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_57829">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57815">
+                    <gml:pos srsDimension="3">4481801.15102 5739923.99432 2.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>20</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Baum gml:id="Baum_57327">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Geometrie_Punktobjekt>
+                <gml:Point gml:id="Point.57439">
+                    <gml:pos srsDimension="3">4481818.0 5739926.0 62.0</gml:pos>
+                </gml:Point>
+            </okstra:Geometrie_Punktobjekt>
+            <okstra:Baumgattung>030</okstra:Baumgattung>
+            <okstra:Stammumfang uom="m">0.0</okstra:Stammumfang>
+            <okstra:Stammdurchmesser uom="m">0.4</okstra:Stammdurchmesser>
+            <okstra:Kronendurchmesser uom="m">10.0</okstra:Kronendurchmesser>
+            <okstra:Wurzelhalsdurchmesser uom="m">0.0</okstra:Wurzelhalsdurchmesser>
+            <okstra:Stammhoehe uom="m">0.0</okstra:Stammhoehe>
+            <okstra:Baumhoehe uom="m">15.0</okstra:Baumhoehe>
+            <okstra:Baumscheibe uom="m%B2">0.0</okstra:Baumscheibe>
+            <okstra:Pflanzjahr>
+                <okstra:ASB_Datum>
+                    <okstra:Jahr>0</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Pflanzjahr>
+            <okstra:gefaellt>0</okstra:gefaellt>
+            <okstra:Datum_der_Faellung>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Datum_der_Faellung>
+            <okstra:letzte_Baumschau>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:letzte_Baumschau>
+            <okstra:Schiefstand>0</okstra:Schiefstand>
+        </okstra:Baum>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Baum gml:id="Baum_57459">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Geometrie_Punktobjekt>
+                <gml:Point gml:id="Point.57559">
+                    <gml:pos srsDimension="3">4481828.0 5739930.0 62.0</gml:pos>
+                </gml:Point>
+            </okstra:Geometrie_Punktobjekt>
+            <okstra:Baumgattung>040</okstra:Baumgattung>
+            <okstra:Stammumfang uom="m">0.0</okstra:Stammumfang>
+            <okstra:Stammdurchmesser uom="m">0.3</okstra:Stammdurchmesser>
+            <okstra:Kronendurchmesser uom="m">4.0</okstra:Kronendurchmesser>
+            <okstra:Wurzelhalsdurchmesser uom="m">0.0</okstra:Wurzelhalsdurchmesser>
+            <okstra:Stammhoehe uom="m">0.0</okstra:Stammhoehe>
+            <okstra:Baumhoehe uom="m">0.0</okstra:Baumhoehe>
+            <okstra:Baumscheibe uom="m%B2">0.0</okstra:Baumscheibe>
+            <okstra:Pflanzjahr>
+                <okstra:ASB_Datum>
+                    <okstra:Jahr>0</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Pflanzjahr>
+            <okstra:gefaellt>0</okstra:gefaellt>
+            <okstra:Datum_der_Faellung>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Datum_der_Faellung>
+            <okstra:letzte_Baumschau>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:letzte_Baumschau>
+            <okstra:Schiefstand>0</okstra:Schiefstand>
+        </okstra:Baum>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56289">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56287">
+                    <gml:pos srsDimension="3">4481857.814 5739941.475 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>71.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>2.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56409">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56407">
+                    <gml:pos srsDimension="3">4481866.512 5739942.503 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>171.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>3.5</okstra:Breite>
+                    <okstra:Hoehe>3.5</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56501">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56499">
+                    <gml:pos srsDimension="3">4481874.17326 5739938.90972 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>70.50</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56593">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56591">
+                    <gml:pos srsDimension="3">4481874.36351 5739930.6339 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>72.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56685">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56683">
+                    <gml:pos srsDimension="3">4481865.13645 5739931.0144 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>69.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56777">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56775">
+                    <gml:pos srsDimension="3">4481854.67278 5739922.07272 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>70.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56869">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56867">
+                    <gml:pos srsDimension="3">4481865.23158 5739922.45321 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>71.50</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_56961">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.56959">
+                    <gml:pos srsDimension="3">4481874.36351 5739922.16784 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>70.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_57053">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57051">
+                    <gml:pos srsDimension="3">4481881.59296 5739939.09997 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>20.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_57145">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57143">
+                    <gml:pos srsDimension="3">4481881.68808 5739930.72903 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>21.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_57237">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57235">
+                    <gml:pos srsDimension="3">4481881.02221 5739921.88247 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>22.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_57581">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57579">
+                    <gml:pos srsDimension="3">4481870.22958 5739893.97221 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>100%&lt;br&gt;A&amp;O&lt;br&gt;1500€&lt;br&gt;alpha@example.org&lt;br&gt;90°</okstra:Text>
+            <okstra:Textbedeutung>5121.0000</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>4.9</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_57673">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57671">
+                    <gml:pos srsDimension="3">4481841.4331 5739914.48539 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>Wasserturmstraße</okstra:Text>
+            <okstra:Textbedeutung>5121.0000</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">1.2617839367567</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>3.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Beschriftung gml:id="Beschriftung_57843">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.57841">
+                    <gml:pos srsDimension="3">4481847.3992 5739935.41831 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>3734&lt;br&gt;089&lt;br&gt;1,024</okstra:Text>
+            <okstra:Textbedeutung>5003.F001</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>4.9</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschung gml:id="Boeschung_55136">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_55240"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_55365"/>
+        </okstra:Boeschung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschung gml:id="Boeschung_57933">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_57998"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58080"/>
+        </okstra:Boeschung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschung gml:id="Boeschung_58109">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58174"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58256"/>
+        </okstra:Boeschung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschung gml:id="Boeschung_58285">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58350"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58432"/>
+        </okstra:Boeschung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschung gml:id="Boeschung_58461">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58526"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58608"/>
+        </okstra:Boeschung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschung gml:id="Boeschung_58637">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58702"/>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58772"/>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58840"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58920"/>
+        </okstra:Boeschung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschung gml:id="Boeschung_58949">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_59053"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_59142"/>
+        </okstra:Boeschung>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_55240">
+            <okstra:Liniengeometrie xlink:href="#Curve.55138"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_55136"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_55365">
+            <okstra:Liniengeometrie xlink:href="#Curve.55263"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_55136"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_57998">
+            <okstra:Liniengeometrie xlink:href="#Curve.57935"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_57933"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58080">
+            <okstra:Liniengeometrie xlink:href="#Curve.58017"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_57933"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58174">
+            <okstra:Liniengeometrie xlink:href="#Curve.58111"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58109"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58256">
+            <okstra:Liniengeometrie xlink:href="#Curve.58193"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58109"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58350">
+            <okstra:Liniengeometrie xlink:href="#Curve.58287"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58285"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58432">
+            <okstra:Liniengeometrie xlink:href="#Curve.58369"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58285"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58526">
+            <okstra:Liniengeometrie xlink:href="#Curve.58463"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58461"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58608">
+            <okstra:Liniengeometrie xlink:href="#Curve.58545"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58461"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58702">
+            <okstra:Liniengeometrie xlink:href="#Curve.58639"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58772">
+            <okstra:Liniengeometrie xlink:href="#Curve.58721"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58840">
+            <okstra:Liniengeometrie xlink:href="#Curve.58789"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58920">
+            <okstra:Liniengeometrie xlink:href="#Curve.58857"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_59053">
+            <okstra:Liniengeometrie xlink:href="#Curve.58951"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58949"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_59142">
+            <okstra:Liniengeometrie xlink:href="#Curve.59072"/>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58949"/>
+        </okstra:Boeschungskantenabschnitt>
+    </gml:featureMember>
+    <gml:featureMember>
+        <okstra:Trasse gml:id="Trasse_54728">
+            <okstra:Bezeichnung>Trasse</okstra:Bezeichnung>
+            <okstra:Informationstext>320</okstra:Informationstext>
+            <okstra:Koordinatenreferenzsystem>
+                <okstra:Koordinatenreferenzsystem>
+                    <okstra:System_2D>734</okstra:System_2D>
+                    <okstra:System_Hoehe>1700</okstra:System_Hoehe>
+                </okstra:Koordinatenreferenzsystem>
+            </okstra:Koordinatenreferenzsystem>
+        </okstra:Trasse>
+    </gml:featureMember>
+</gml:FeatureCollection>
+<!-- Hash-Summe: d2c43465180bae44727fb1690f6cf811249ef60f037b52da60fea6051a4dc547 -->

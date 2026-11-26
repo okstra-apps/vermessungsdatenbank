@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Dateien des OKLABI-Release 1.6.5.0 für das Image: SHA-256 und Pfad im Release
+# (https://www.okstra.de/oklabi/Release-20260629). Die Prüfsummen der beiden Java-Archive
+# stehen auch in gradle.properties und müssen dort gleich lauten.
+460458f2619f440862b9a352528bc8bbb58496f5d27fc01e0bc3ee638bd8c15a  Oklabi/Bibliothek/Linux/ubuntu-2404-1-6-5-0.tbz
+c2fec8e0dfd61578c6aa2259c5f85b31741f8f02f27f5760c5968fbdd2c0c669  Oklabi/Ressourcen/Ressourcen.zip
+136328d9a78f080e9c2fe6d773a58dbe4d60854edd411990c3dedb678844d67c  Oklabi/Bibliothek/Java/OKLABI-java11-1-6-5-0.jar.zip
+965bf2be859299e455f1d7e0f75a78096bd3764beb581cc04844b377bd8b2db9  Oklabi/Bibliothek/Java/OkstraSqlUtil-java11-1-6-5-0.jar.zip

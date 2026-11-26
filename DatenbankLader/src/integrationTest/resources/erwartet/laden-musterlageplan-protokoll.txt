@@ -1,0 +1,54 @@
+Beginn des Logs fuer Import aus XML-Datei /var/home/Daten/Okstra2DB/upload//muster_musterlageplan.xml
+Konverter Version 2.0 (1:CountOnly,2:SinglePass,3:MultiPass) mit Xerces-C Version: 3_3_0
+<ZEIT> Validierung, externe SchemaLocation: http://www.okstra.de/okstra/2.022 /opt/OKLABI_HOME/schema/2022/okstra.xsd
+<ZEIT> Validierung beendet.
+XML-Datei ist geprüft, Laden der Objekte beginnt: <ZEIT>
+<ZEIT> Starte Erzeugung der Fachobjekte
+<ZEIT> Starte Befüllung der Fachobjekte, benutze <N> Threads aus Pool... (<N> Kerne im System)
+<ZEIT> Starte Nachbearbeitung...
+
+------------------------------------------------------------------------------------------
+Es gab insgesamt 25 verschiedene Objektarten in der Importdatei.
+Objektart                                         Diagnose         Häufigkeit
+ASB_Datum                                         erzeugt                   6
+Art_Boeschung                                     erzeugt                   2
+Baum                                              erzeugt                   2
+Baumgattung                                       erzeugt                   2
+Beschriftung                                      erzeugt                  25
+Bestandsstatus                                    erzeugt                   1
+Boeschung                                         erzeugt                   3
+Boeschungskantenabschnitt                         erzeugt                   6
+Dreiwertige_Logik                                 erzeugt                   1
+Einfuegeposition                                  erzeugt                   4
+Einheit                                           erzeugt                   2
+Koordinatenreferenzsystem                         erzeugt                   1
+Koordinatenreferenzsystem_2D                      erzeugt                   1
+Koordinatenreferenzsystem_Hoehe                   erzeugt                   1
+Monat                                             erzeugt                   1
+RGB_Farbe                                         erzeugt                  25
+Schiefstand_Baum                                  erzeugt                   1
+Symbol                                            erzeugt                   1
+Textausgestaltung                                 erzeugt                  25
+Trasse                                            erzeugt                   1
+allgemeines_Flaechenobjekt                        erzeugt                   1
+allgemeines_Linienobjekt                          erzeugt                  12
+allgemeines_Punktobjekt                           erzeugt                  63
+horizontale_Ausrichtung                           erzeugt                   1
+vertikale_Ausrichtung                             erzeugt                   1
+Datenmodellversion:           OKSTRA-2.022
+Erzeugte Objekte:             189
+Bekannte Objektarten:         25
+Unbekannte Objektarten:       0
+Ignorierte Objektarten:       0
+Nicht definierte Objektarten: 0
+Zu jeder nicht erzeugten Objektart gibt es nur eine einmalige Meldung während des Imports.
+------------------------------------------------------------------------------------------
+
+Ende des Logs fuer Import aus XML-Datei /var/home/Daten/Okstra2DB/upload//muster_musterlageplan.xml
+<ZEIT>
+<ZEIT> Bereinige Geometrie...
+<ZEIT> Starte Geometrienachbehandlung der Fachobjekte, benutze <N> Threads aus Pool... (<N> Kerne im System)
+Fertig. <ZEIT> Datenbestand mit 189 Fachobjekten.
+Die Initialisierung des Datenbestandes in das Höhensystem Normalhöhe im System des DHHN 2016 ist erforderlich.
+Die Gültigkeit von Fachbdedeutungen an Fachobjekten der Objektart Symbol wird nicht geprüft.
+Die Gültigkeit von Fachbdedeutungen an Fachobjekten der Objektart Beschriftung wird nicht geprüft.

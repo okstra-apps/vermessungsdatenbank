@@ -1,0 +1,31 @@
+E_GeoLinie: Klasse Trasse, Objekt besitzt keine Achsen. ID: Trasse_54728
+Höhen in 1 Linie(n) mit Kreisbögen oder Splines aus den Komponenten übernommen (Behelf für die OKLABI)
+Beginne Vorbereitung der Datenübertragung <ZEIT>
+Lade Schlüsseltabellen... <ZEIT>
+   <ZEIT>: Starte Objektart Art_Boeschung mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Baumgattung mit 2 Fachobjekten
+   <ZEIT>: Starte Objektart Bestandsstatus mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Dreiwertige_Logik mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Einfuegeposition mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Einheit mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart horizontale_Ausrichtung mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Koordinatenreferenzsystem_2D mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Koordinatenreferenzsystem_Hoehe mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Monat mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart Schiefstand_Baum mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart vertikale_Ausrichtung mit 1 Fachobjekt
+Lade Daten... <ZEIT>
+   <ZEIT>: Starte Objektart allgemeines_Flaechenobjekt mit 1 Fachobjekt
+Transformiere Koordinatenreferenzsystem von [Pulkowo 42/83 3GK4] nach [UTM 32 Nord (ETRS89)] Gitterdatei: [/opt/OKLABI_HOME/ntv2/NTv2LSBB_LSA.gsb]
+   <ZEIT>: Starte Objektart allgemeines_Linienobjekt mit 19 Fachobjekten
+   <ZEIT>: Starte Objektart allgemeines_Punktobjekt mit 17 Fachobjekten
+   <ZEIT>: Starte Objektart ASB_Datum mit 6 Fachobjekten
+   <ZEIT>: Starte Objektart Baum mit 2 Fachobjekten
+   <ZEIT>: Starte Objektart Beschriftung mit 14 Fachobjekten
+   <ZEIT>: Starte Objektart Boeschung mit 7 Fachobjekten
+   <ZEIT>: Starte Objektart Boeschungskantenabschnitt mit 16 Fachobjekten
+   <ZEIT>: Starte Objektart Koordinatenreferenzsystem mit 1 Fachobjekt
+   <ZEIT>: Starte Objektart RGB_Farbe mit 14 Fachobjekten
+   <ZEIT>: Starte Objektart Textausgestaltung mit 14 Fachobjekten
+   <ZEIT>: Starte Objektart Trasse mit 1 Fachobjekt
+Datenübertragung beendet <ZEIT>

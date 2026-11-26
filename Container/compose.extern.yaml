@@ -1,0 +1,39 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Die Vermessungsdatenbank gegen eine vorhandene PostgreSQL-Datenbank mit PostGIS, die
+# nach Datenbank/README.md eingerichtet ist. Verbindung in der .env des
+# Konfigurationsverzeichnisses (ohne Angabe Container/, siehe README.md), dann
+#
+#   docker compose -f Container/compose.extern.yaml up -d
+#   docker compose --env-file /etc/vermdb/.env -f Container/compose.extern.yaml up -d
+name: vermdb-extern
+
+services:
+  vermdb:
+    image: vermdb:${VERMDB_TAG:-latest}
+    build:
+      context: ..
+      dockerfile: Container/Dockerfile
+    platform: linux/amd64
+    restart: unless-stopped
+    # Alle Variablen aus .env gehen in den Container, darunter die VERMDB_… für die
+    # web.xml; Adresse, Benutzer und Kennwort (oder VERMDB_DB_PASSWORT_DATEI) sind Pflicht
+    env_file: ["${VERMDB_KONFIG:-.}/.env"]
+    environment:
+      # Etwa jdbc:postgresql://datenbank.example:5432/vermdb
+      VERMDB_DB_URL: ${VERMDB_DB_URL:?Adresse der Datenbank in .env angeben}
+      VERMDB_DB_BENUTZER: ${VERMDB_DB_BENUTZER:?Datenbankbenutzer in .env angeben}
+    volumes:
+      # Uploads, Rückgaben, Protokolle, Datenfehler: ein Verzeichnis des Rechners (ohne
+      # Angabe daten/ im Konfigurationsverzeichnis), das dem Benutzer vermdb (UID 10001)
+      # gehört; VERMDB_DATEN=daten nimmt das Volume
+      - ${VERMDB_DATEN:-${VERMDB_KONFIG:-.}/daten}:/var/home/Daten
+      # Eigene Gitterdateien mit gitter.cfg (Container/gitter/README.md); die des Image
+      # schaltet VERMDB_GITTER_IMAGE in .env ein (Container/gitter-image/README.md)
+      - ${VERMDB_GITTER:-${VERMDB_KONFIG:-.}/gitter}:/opt/vermdb/gitter:ro
+      # Eigene Fachbedeutungslisten (Container/fbliste/README.md)
+      - ${VERMDB_FBLISTEN:-${VERMDB_KONFIG:-.}/fbliste}:/opt/vermdb/fbliste:ro
+    ports: ["${VERMDB_PORT:-127.0.0.1:8099}:8080"]
+
+volumes:
+  daten:

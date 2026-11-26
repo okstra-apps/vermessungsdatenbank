@@ -1,0 +1,7 @@
+Namensraum: http://www.okstra.de/okstra/2.022
+Lagesysteme: 
+Trasse: 1
+vertikale_Ausrichtung: 1
+
+Trasse | Bezeichnung= | Informationstext=320 | Koordinatenreferenzsystem/Koordinatenreferenzsystem/System_2D→? | Koordinatenreferenzsystem/Koordinatenreferenzsystem/System_Hoehe→?
+vertikale_Ausrichtung | Kennung=1 | Langtext=oben

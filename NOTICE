@@ -1,0 +1,80 @@
+SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+SPDX-License-Identifier: AGPL-3.0-or-later
+
+Vermessungsdatenbank
+Copyright 2014-2026 interactive instruments GmbH
+
+Dieses Programm ist freie Software: Sie können es unter den Bedingungen der GNU Affero
+General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben
+und/oder verändern, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Wahl) jeder
+späteren Version. Der Lizenztext liegt in LICENSES/AGPL-3.0-or-later.txt.
+
+Dieses Programm wird in der Hoffnung bereitgestellt, dass es nützlich ist, aber OHNE
+JEDE GEWÄHRLEISTUNG; sogar ohne die implizite Gewährleistung der MARKTFÄHIGKEIT oder
+EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Einzelheiten in der GNU Affero General Public License.
+
+
+Zusatzerlaubnis nach § 7 AGPL
+=============================
+
+Maßgeblich ist der folgende englische Wortlaut:
+
+  Additional permission under GNU AGPL version 3 section 7
+
+  If you modify this Program, or any covered work, by linking or combining it with the
+  OKSTRA-Klassenbibliothek (OKLABI) or OkstraSqlUtil of the Bundesanstalt für Straßen-
+  und Verkehrswesen (BASt), or a modified version of these libraries, containing parts
+  covered by the license terms of the BASt for these libraries, the licensors of this
+  Program grant you additional permission to convey the resulting work. Corresponding
+  Source for a non-source form of such a combination shall not include the source code
+  for the parts of OKLABI or OkstraSqlUtil used. These parts remain subject to their own
+  license terms.
+
+Zusammenfassung: Die Vermessungsdatenbank darf mit der OKLABI und OkstraSqlUtil der BASt
+verbunden und so weitergegeben werden. Deren Quellcode gehört nicht zum vollständigen
+Quellcode im Sinne der AGPL; für sie gelten ihre eigenen Nutzungsbestimmungen.
+
+
+OKLABI und OkstraSqlUtil
+========================
+
+Die OKSTRA-Klassenbibliothek (OKLABI) und OkstraSqlUtil sind Eigentum der Bundesanstalt
+für Straßen- und Verkehrswesen. Sie sind nicht Teil dieses Repositorys. Der Bau verwendet
+ihr freigegebenes Release, das jeder selbst von https://www.okstra.de/oklabi/ bezieht;
+dabei gelten die Nutzungsbestimmungen der BASt
+(https://www.okstra.de/oklabi/Lizenz/nutzung.txt). Der Bau legt sie unverändert als
+OKLABI-Nutzungsbestimmungen.txt in das WAR (META-INF/) und in das Image
+(/opt/vermdb/LICENSES/). Das Release bringt weitere Bibliotheken mit eigenen Lizenzen mit
+(u. a. GDAL, PROJ, GEOS, SpatiaLite, SQLite, Xerces-C).
+
+
+Weitere Drittkomponenten
+========================
+
+Der Bau lädt die folgenden Bibliotheken aus Maven Central und legt sie unverändert in
+das WAR; ihre Lizenz- und NOTICE-Dateien liegen jeweils im Jar unter META-INF/:
+
+  Apache Commons IO         Apache License 2.0
+  Apache Log4j 2            Apache License 2.0
+  PostgreSQL JDBC Driver    BSD 2-Clause License
+
+Der Gradle Wrapper (gradlew, gradlew.bat, gradle/wrapper/) steht unter der Apache
+License 2.0 (LICENSES/Apache-2.0.txt).
+
+
+Gitterdateien
+=============
+
+Repository (Container/gitter-image/) und Container-Image (/opt/OKLABI_HOME/ntv2-image/)
+enthalten unverändert zwei Gitterdateien für Koordinatentransformationen, beide unter der
+Datenlizenz Deutschland – Namensnennung – Version 2.0 (LICENSES/DL-DE-BY-2.0.txt,
+https://www.govdata.de/dl-de/by-2-0):
+
+  NTv2LSBB_LSA.gsb   Landesstraßenbaubehörde Sachsen-Anhalt, dl-de/by-2-0
+  HeTa2010.gsb       Hessische Verwaltung für Bodenmanagement und Geoinformation (HVBG),
+                     dl-de/by-2-0
+
+Herkunft und Prüfsummen: Container/gitter-image/README.md.
+
+Eine Übersicht aller Drittkomponenten in Repository, WAR und Container-Image mit ihren
+Lizenzen und den Pflichten bei einer Weitergabe enthält doku/Lizenzen.md.

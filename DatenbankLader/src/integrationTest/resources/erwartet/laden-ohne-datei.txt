@@ -1,0 +1,1 @@
+{ "success": false, "message": "Anfrage-Informationen sind unvollst&auml;ndig oder fehlerhaft: Es wurden keine Daten hochgeladen. Die Anfrage wird abgewiesen." }

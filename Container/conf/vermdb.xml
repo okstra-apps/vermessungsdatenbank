@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+  SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<!-- Kontext /vermdb (conf/Catalina/localhost/vermdb.xml): liefert unter dem Präfix
+     okstraServerPrefix die Verzeichnisse aus, auf die Auftragsliste und Clients
+     verweisen, nur lesend und ohne Verzeichnislisten (Vorgabe des DefaultServlet).
+     Uploads werden nicht ausgeliefert. Ohne Zwischenspeicher, damit erledigt.txt beim
+     asynchronen Entladen sofort den neuen Stand zeigt. -->
+<Context docBase="/usr/local/tomcat/vermdb">
+  <Resources cachingAllowed="false">
+    <PreResources className="org.apache.catalina.webresources.DirResourceSet"
+                  base="/var/home/Daten/Okstra2DB/log" webAppMount="/log" readOnly="true"/>
+    <PreResources className="org.apache.catalina.webresources.DirResourceSet"
+                  base="/var/home/Daten/Okstra2DB/datenfehler" webAppMount="/datenfehler" readOnly="true"/>
+    <PreResources className="org.apache.catalina.webresources.DirResourceSet"
+                  base="/var/home/Daten/Okstra2DB/download" webAppMount="/download" readOnly="true"/>
+  </Resources>
+</Context>

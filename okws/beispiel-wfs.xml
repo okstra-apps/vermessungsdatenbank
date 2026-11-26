@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generiert von OKLABI, (c) 2009-2026 Bundesanstalt für Straßen- und Verkehrswesen -->
+<wfs:FeatureCollection
+ xmlns:okstra="http://www.okstra.de/okstra/2.022"
+ xmlns:gml="http://www.opengis.net/gml/3.2"
+ xmlns:wfs="http://www.opengis.net/wfs/2.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xsi:schemaLocation="http://www.okstra.de/okstra/2.022 http://www.okstra.de/schema/2022/okstra.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd"
+ timeStamp="2026-11-14T11:16:20"
+ numberReturned="125"
+ numberMatched="unknown"
+>
+    <wfs:boundedBy>
+        <gml:Envelope srsDimension="2" srsName="urn:adv:crs:DE_42-83_3GK4">
+            <gml:lowerCorner>4481763.615 5739893.972</gml:lowerCorner>
+            <gml:upperCorner>4481881.688 5740050.441</gml:upperCorner>
+        </gml:Envelope>
+    </wfs:boundedBy>
+    <wfs:member>
+        <okstra:allgemeines_Flaechenobjekt gml:id="allgemeines_Flaechenobjekt_55402">
+            <okstra:Flaechengeometrie>
+                <gml:MultiSurface gml:id="MultiPolygon.24138">
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="Polygon.24138" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:exterior>
+                                <gml:Ring>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="Curve.26850" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:coordinates>4481827.203,5739921.519,0.0 4481829.923,5739915.492,0.0 4481827.96,5739909.914,0.0 4481822.588,5739907.227,0.0 4481817.044,5739909.535,0.0 4481814.839,5739915.527,0.0 4481817.216,5739921.037,0.0 4481822.691,5739923.241,0.0 4481827.203,5739921.519,0.0</gml:coordinates>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                </gml:Ring>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </okstra:Flaechengeometrie>
+            <okstra:fachliche_Bedeutung>1063.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Flaechenobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_54795">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24142">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24142" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481814.839,5739915.527,0.0 4481817.216,5739921.037,0.0 4481822.691,5739923.241,0.0 4481827.203,5739921.519,0.0 4481829.923,5739915.492,0.0 4481827.96,5739909.914,0.0 4481822.588,5739907.227,0.0 4481817.044,5739909.535,0.0 4481814.839,5739915.527,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>1013.F001</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_55140">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24148">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24148" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481826.512,5739936.931,70.0 4481835.156,5739934.692,71.0 4481843.972,5739931.765,72.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_55265">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24139">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24139" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481825.547,5739934.348,60.0 4481834.983,5739930.697,61.0 4481844.557,5739927.908,62.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_55596">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24874">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24874" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481837.806,5739914.956,70.0 4481841.835,5739925.115,70.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                                <gml:Arc>
+                                    <gml:coordinates>4481841.835,5739925.115,70.0 4481841.115,5739926.505,70.0 4481839.669,5739927.435,70.0</gml:coordinates>
+                                </gml:Arc>
+                                <gml:Arc>
+                                    <gml:coordinates>4481839.669,5739927.435,70.0 4481835.39,5739927.051,71.0 4481831.155,5739922.111,72.0</gml:coordinates>
+                                </gml:Arc>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>5296.F002</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_56148">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24151">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24151" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481803.497,5739910.55,1.0 4481801.151,5739923.994,2.0 4481817.259,5739934.521,3.0 4481817.259,5739934.521,4.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>R352.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_57937">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24154">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24154" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481825.228,5739992.213,0.0 4481856.58,5739992.397,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58019">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24157">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24157" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481825.594,5739985.43,0.0 4481854.93,5739985.613,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58113">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24160">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24160" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481824.805,5740012.31,0.0 4481856.157,5740012.494,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58195">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24163">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24163" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481825.171,5740005.526,0.0 4481854.507,5740005.71,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58289">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24821">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24821" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481825.651,5739969.578,0.0 4481857.003,5739969.761,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58371">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24901">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24901" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481826.018,5739962.794,0.0 4481855.353,5739962.978,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58465">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.25216">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.25216" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481823.289,5740033.378,0.0 4481855.444,5740033.59,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58547">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.24952">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.24952" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481824.347,5740025.339,0.0 4481854.598,5740025.551,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58641">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.25004">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.25004" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481822.972,5740048.417,65.0 4481834.304,5740050.441,70.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58723">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.25111">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.25111" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481834.304,5740050.441,70.0 4481849.479,5740049.834,75.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58791">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.25045">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.25045" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481849.479,5740049.834,75.0 4481860.204,5740046.799,80.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58859">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.25266">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.25266" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481822.972,5740043.157,50.0 4481859.597,5740041.133,50.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_58953">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.25051">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.25051" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481763.615,5739941.127,0.0 4481772.923,5739954.482,0.0 4481791.235,5739944.567,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0481.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Linienobjekt gml:id="allgemeines_Linienobjekt_59074">
+            <okstra:Liniengeometrie>
+                <gml:MultiCurve gml:id="MultiCurve.25174">
+                    <gml:curveMember>
+                        <gml:Curve gml:id="Curve.25174" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                            <gml:segments>
+                                <gml:LineStringSegment>
+                                    <gml:coordinates>4481763.615,5739941.127,0.0 4481775.25,5739947.501,0.0 4481791.235,5739944.567,0.0</gml:coordinates>
+                                </gml:LineStringSegment>
+                            </gml:segments>
+                        </gml:Curve>
+                    </gml:curveMember>
+                </gml:MultiCurve>
+            </okstra:Liniengeometrie>
+            <okstra:fachliche_Bedeutung>0484.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Linienobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_54781">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25321" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481846.472 5739925.199 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>1</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>3504.F011</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55822">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25313" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481855.469 5739938.755 88.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>35</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55848">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25319" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481864.601 5739938.565 171.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>36</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55874">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25315" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481873.923 5739938.66 70.5</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>37</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55900">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25320" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481874.114 5739930.384 72.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>38</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55926">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25322" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481864.886 5739930.764 69.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>39</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55952">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25314" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481854.898 5739930.289 73.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>40</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_55978">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25317" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481854.423 5739921.823 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>41</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56004">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25316" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481864.982 5739922.203 71.5</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>42</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56030">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25318" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481874.114 5739921.918 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>43</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56056">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25394" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481881.343 5739938.85 20.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>44</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56082">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25405" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481881.438 5739930.479 21.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>45</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56108">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25416" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481880.772 5739921.632 22.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>46</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_56134">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25427" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481840.0 5739910.0 70.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>82219999</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0127.0000</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_57777">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25512" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481803.497 5739910.55 1.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>19</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_57803">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25438" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481843.972 5739931.765 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>28</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:allgemeines_Punktobjekt gml:id="allgemeines_Punktobjekt_57829">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25448" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481801.151 5739923.994 2.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Punktnummer>20</okstra:Punktnummer>
+            <okstra:fachliche_Bedeutung>0435.F004</okstra:fachliche_Bedeutung>
+        </okstra:allgemeines_Punktobjekt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Baum gml:id="Baum_57327">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Geometrie_Punktobjekt>
+                <gml:Point gml:id="Point.25485" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481818.0 5739926.0 62.0</gml:pos>
+                </gml:Point>
+            </okstra:Geometrie_Punktobjekt>
+            <okstra:Baumgattung>030</okstra:Baumgattung>
+            <okstra:Stammumfang uom="m">0.0</okstra:Stammumfang>
+            <okstra:Stammdurchmesser uom="m">0.4</okstra:Stammdurchmesser>
+            <okstra:Kronendurchmesser uom="m">10.0</okstra:Kronendurchmesser>
+            <okstra:Wurzelhalsdurchmesser uom="m">0.0</okstra:Wurzelhalsdurchmesser>
+            <okstra:Stammhoehe uom="m">0.0</okstra:Stammhoehe>
+            <okstra:Baumhoehe uom="m">15.0</okstra:Baumhoehe>
+            <okstra:Baumscheibe uom="m%B2">0.0</okstra:Baumscheibe>
+            <okstra:Pflanzjahr>
+                <okstra:ASB_Datum>
+                    <okstra:Jahr>0</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Pflanzjahr>
+            <okstra:gefaellt>0</okstra:gefaellt>
+            <okstra:Datum_der_Faellung>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Datum_der_Faellung>
+            <okstra:letzte_Baumschau>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:letzte_Baumschau>
+            <okstra:Schiefstand>0</okstra:Schiefstand>
+        </okstra:Baum>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Baum gml:id="Baum_57459">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Geometrie_Punktobjekt>
+                <gml:Point gml:id="Point.25449" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481828.0 5739930.0 62.0</gml:pos>
+                </gml:Point>
+            </okstra:Geometrie_Punktobjekt>
+            <okstra:Baumgattung>040</okstra:Baumgattung>
+            <okstra:Stammumfang uom="m">0.0</okstra:Stammumfang>
+            <okstra:Stammdurchmesser uom="m">0.3</okstra:Stammdurchmesser>
+            <okstra:Kronendurchmesser uom="m">4.0</okstra:Kronendurchmesser>
+            <okstra:Wurzelhalsdurchmesser uom="m">0.0</okstra:Wurzelhalsdurchmesser>
+            <okstra:Stammhoehe uom="m">0.0</okstra:Stammhoehe>
+            <okstra:Baumhoehe uom="m">0.0</okstra:Baumhoehe>
+            <okstra:Baumscheibe uom="m%B2">0.0</okstra:Baumscheibe>
+            <okstra:Pflanzjahr>
+                <okstra:ASB_Datum>
+                    <okstra:Jahr>0</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Pflanzjahr>
+            <okstra:gefaellt>0</okstra:gefaellt>
+            <okstra:Datum_der_Faellung>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:Datum_der_Faellung>
+            <okstra:letzte_Baumschau>
+                <okstra:ASB_Datum>
+                    <okstra:Tag>1</okstra:Tag>
+                    <okstra:Monat>1</okstra:Monat>
+                    <okstra:Jahr>1800</okstra:Jahr>
+                </okstra:ASB_Datum>
+            </okstra:letzte_Baumschau>
+            <okstra:Schiefstand>0</okstra:Schiefstand>
+        </okstra:Baum>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56289">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25457" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481857.814 5739941.475 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>71.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>2.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56409">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25568" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481866.512 5739942.503 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>171.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>3.5</okstra:Breite>
+                    <okstra:Hoehe>3.5</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56501">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25475" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481874.173 5739938.91 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>70.50</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56593">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25562" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481874.364 5739930.634 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>72.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56685">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25494" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481865.136 5739931.014 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>69.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56777">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25663" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481854.673 5739922.073 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>70.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56869">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25476" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481865.232 5739922.453 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>71.50</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_56961">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25571" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481874.364 5739922.168 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>70.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_57053">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25539" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481881.593 5739939.1 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>20.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_57145">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25548" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481881.688 5739930.729 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>21.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_57237">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25511" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481881.022 5739921.882 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>22.00</okstra:Text>
+            <okstra:Textbedeutung>0435.F004</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>2.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_57581">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25521" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481870.23 5739893.972 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>100%&lt;br&gt;A&amp;O&lt;br&gt;1500€&lt;br&gt;alpha@example.org&lt;br&gt;90°</okstra:Text>
+            <okstra:Textbedeutung>5121.0000</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>4.9</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_57673">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25530" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481841.433 5739914.485 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>Wasserturmstraße</okstra:Text>
+            <okstra:Textbedeutung>5121.0000</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">1.2617839367567</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>3.5</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Beschriftung gml:id="Beschriftung_57843">
+            <okstra:Punktgeometrie>
+                <gml:Point gml:id="Point.25623" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:pos srsDimension="3">4481847.399 5739935.418 0.0</gml:pos>
+                </gml:Point>
+            </okstra:Punktgeometrie>
+            <okstra:Text>3734&lt;br&gt;089&lt;br&gt;1,024</okstra:Text>
+            <okstra:Textbedeutung>5003.F001</okstra:Textbedeutung>
+            <okstra:Drehwinkel uom="rad">0.0</okstra:Drehwinkel>
+            <okstra:Textausgestaltung>
+                <okstra:Textausgestaltung>
+                    <okstra:Breite>0.0</okstra:Breite>
+                    <okstra:Hoehe>0.0</okstra:Hoehe>
+                    <okstra:Einheit>1</okstra:Einheit>
+                    <okstra:Schriftart>AKG DIN 6776</okstra:Schriftart>
+                    <okstra:Schrifthoehe>4.9</okstra:Schrifthoehe>
+                    <okstra:Schriftfarbe>
+                        <okstra:RGB_Farbe>
+                            <okstra:Farbwert_rot>0</okstra:Farbwert_rot>
+                            <okstra:Farbwert_gruen>0</okstra:Farbwert_gruen>
+                            <okstra:Farbwert_blau>0</okstra:Farbwert_blau>
+                        </okstra:RGB_Farbe>
+                    </okstra:Schriftfarbe>
+                    <okstra:Kasten>0</okstra:Kasten>
+                    <okstra:vertikale_Ausrichtung>1</okstra:vertikale_Ausrichtung>
+                    <okstra:horizontale_Ausrichtung>1</okstra:horizontale_Ausrichtung>
+                    <okstra:Einfuegeposition>7</okstra:Einfuegeposition>
+                </okstra:Textausgestaltung>
+            </okstra:Textausgestaltung>
+        </okstra:Beschriftung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschung gml:id="Boeschung_55136">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_55240"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_55365"/>
+        </okstra:Boeschung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschung gml:id="Boeschung_57933">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_57998"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58080"/>
+        </okstra:Boeschung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschung gml:id="Boeschung_58109">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58174"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58256"/>
+        </okstra:Boeschung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschung gml:id="Boeschung_58285">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58350"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58432"/>
+        </okstra:Boeschung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschung gml:id="Boeschung_58461">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58526"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58608"/>
+        </okstra:Boeschung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschung gml:id="Boeschung_58637">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58702"/>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58772"/>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58840"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_58920"/>
+        </okstra:Boeschung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschung gml:id="Boeschung_58949">
+            <okstra:Bestandsstatus>6</okstra:Bestandsstatus>
+            <okstra:Art_Boeschung>6</okstra:Art_Boeschung>
+            <okstra:hat_Oberkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_59053"/>
+            <okstra:hat_Unterkante Objektklasse="Boeschungskantenabschnitt" xlink:href="#Boeschungskantenabschnitt_59142"/>
+        </okstra:Boeschung>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_55240">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25585" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481826.512,5739936.931,70.0 4481835.156,5739934.692,71.0 4481843.972,5739931.765,72.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_55136"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_55365">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25593" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481825.547,5739934.348,60.0 4481834.983,5739930.697,61.0 4481844.557,5739927.908,62.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_55136"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_57998">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25557" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481825.228,5739992.213,0.0 4481856.58,5739992.397,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_57933"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58080">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25603" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481825.594,5739985.43,0.0 4481854.93,5739985.613,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_57933"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58174">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25580" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481824.805,5740012.31,0.0 4481856.157,5740012.494,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58109"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58256">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25636" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481825.171,5740005.526,0.0 4481854.507,5740005.71,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58109"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58350">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25704" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481825.651,5739969.578,0.0 4481857.003,5739969.761,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58285"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58432">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25752" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481826.018,5739962.794,0.0 4481855.353,5739962.978,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58285"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58526">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25773" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481823.289,5740033.378,0.0 4481855.444,5740033.59,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58461"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58608">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25680" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481824.347,5740025.339,0.0 4481854.598,5740025.551,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58461"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58702">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25692" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481822.972,5740048.417,65.0 4481834.304,5740050.441,70.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58772">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25759" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481834.304,5740050.441,70.0 4481849.479,5740049.834,75.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58840">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25719" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481849.479,5740049.834,75.0 4481860.204,5740046.799,80.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_58920">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25780" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481822.972,5740043.157,50.0 4481859.597,5740041.133,50.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58637"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_59053">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25751" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481763.615,5739941.127,0.0 4481772.923,5739954.482,0.0 4481791.235,5739944.567,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Oberkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58949"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Boeschungskantenabschnitt gml:id="Boeschungskantenabschnitt_59142">
+            <okstra:Liniengeometrie>
+                <gml:Curve gml:id="Curve.25789" srsName="urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH">
+                    <gml:segments>
+                        <gml:LineStringSegment>
+                            <gml:coordinates>4481763.615,5739941.127,0.0 4481775.25,5739947.501,0.0 4481791.235,5739944.567,0.0</gml:coordinates>
+                        </gml:LineStringSegment>
+                    </gml:segments>
+                </gml:Curve>
+            </okstra:Liniengeometrie>
+            <okstra:undeutlich>0</okstra:undeutlich>
+            <okstra:ist_Unterkante_zu Objektklasse="Boeschung" xlink:href="#Boeschung_58949"/>
+        </okstra:Boeschungskantenabschnitt>
+    </wfs:member>
+    <wfs:member>
+        <okstra:Trasse gml:id="Trasse_54728">
+            <okstra:Bezeichnung>Trasse</okstra:Bezeichnung>
+            <okstra:Informationstext>320</okstra:Informationstext>
+            <okstra:Koordinatenreferenzsystem>
+                <okstra:Koordinatenreferenzsystem>
+                    <okstra:System_2D>734</okstra:System_2D>
+                    <okstra:System_Hoehe>1700</okstra:System_Hoehe>
+                </okstra:Koordinatenreferenzsystem>
+            </okstra:Koordinatenreferenzsystem>
+        </okstra:Trasse>
+    </wfs:member>
+</wfs:FeatureCollection>
+<!-- Hash-Summe: dd4a9cf35bab6305584e21a2d1cc919fd2b72fcd3b9faef1c6051c7fc9be0f2a -->

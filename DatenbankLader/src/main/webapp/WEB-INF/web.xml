@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SPDX-FileCopyrightText: 2014-2026 interactive instruments GmbH
+  SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<!-- Vorlage mit allen Parametern. Je Installation anzupassen: die vier Verzeichnisse (sie
+     müssen vorhanden sein, der Dienst legt sie nicht an), Behörde, FB-Liste und
+     okstraServerPrefix. okstraVersionDatabase muss zum OKSTRA-Schema der Datenbank passen
+     (2.022 → oks_2022, siehe Datenbank/README.md). -->
+<web-app version="6.1" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd">
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    <!-- Zeichensätze wie unter Tomcat 9, unabhängig von der globalen conf/web.xml (die
+         Tomcat 11 auf UTF-8 setzt): Das Servlet gibt entladene OKSTRA-Dateien über einen
+         Writer aus und reicht sie nur mit ISO-8859-1 Byte für Byte durch; Formularfelder
+         und Antworttexte erwarten die Clients ebenfalls so. -->
+    <request-character-encoding>ISO-8859-1</request-character-encoding>
+    <response-character-encoding>ISO-8859-1</response-character-encoding>
+    <display-name>Okstra2DbServlet</display-name>
+    <description>Servlets handling OKSTRA data</description>
+    <context-param>
+        <description>Speicherpfad fuer Uploads</description>
+        <param-name>okstraUploadpath</param-name>
+        <param-value>C:/Vermessungsdatenbank/Daten/upload</param-value>
+    </context-param>
+    <context-param>
+        <description>Speicherpfad fuer Protokolle</description>
+        <param-name>okstraOklabilog</param-name>
+        <param-value>C:/Vermessungsdatenbank/Daten/log</param-value>
+    </context-param>
+    <context-param>
+        <description>Speicherpfad fuer fehlerhafte Daten</description>
+        <param-name>okstraErrorexportpath</param-name>
+        <param-value>C:/Vermessungsdatenbank/Daten/datenfehler</param-value>
+    </context-param>
+    <context-param>
+        <description>Speicherpfad fuer Rueckgaben</description>
+        <param-name>okstraReturnpath</param-name>
+        <param-value>C:/Vermessungsdatenbank/Daten/download</param-value>
+    </context-param>
+    <!-- Optional: Übergabeverzeichnis für lokale Dateien. Nur Dateien darin oder darunter
+         dürfen mit dem Parameter uploadfile statt einer hochgeladenen Datei geladen
+         werden; ohne diesen Parameter weist der Dienst uploadfile ab.
+    <context-param>
+        <description>Übergabeverzeichnis für uploadfile</description>
+        <param-name>okstraTransferpath</param-name>
+        <param-value>C:/Vermessungsdatenbank/Daten/uebergabe</param-value>
+    </context-param>
+    -->
+    <context-param>
+        <description>Präfix für Webserverzugriffe</description>
+        <param-name>okstraServerPrefix</param-name>
+        <param-value>http://localhost/vermdb/</param-value>
+    </context-param>
+    <context-param>
+        <description>Behörde</description>
+        <param-name>okstraAuthority</param-name>
+        <param-value>Behörde (anpassen)</param-value>
+    </context-param>
+    <context-param>
+        <description>Langname</description>
+        <param-name>okstraAuthName</param-name>
+        <param-value>Name der Behörde (anpassen)</param-value>
+    </context-param>
+    <context-param>
+        <description>Datenbankname</description>
+        <param-name>okstraDbName</param-name>
+        <param-value>Vermessungsdatenbank</param-value>
+    </context-param>
+    <context-param>
+        <!-- Bundesland und Version der Fachbedeutungsliste, etwa "Sachsen-Anhalt 3.5";
+             anzupassen. Der Platzhalter ist keine gültige Liste; der Dienst arbeitet dann
+             ohne Vorgabe und meldet das beim Start. -->
+        <description>FB-Liste</description>
+        <param-name>okstraFbliste</param-name>
+        <param-value>Bundesland 0.0</param-value>
+    </context-param>
+    <context-param>
+        <description>FB-Prüfung</description>
+        <param-name>okstraFblisteCheck</param-name>
+        <param-value>einfach:ohneSymbolbedeutung:ohneTextbedeutung</param-value>
+    </context-param>
+    <context-param>
+        <description>FB-Ausschlüsse</description>
+        <param-name>okstraFblisteExclusion</param-name>
+        <param-value>1</param-value>
+    </context-param>
+    <context-param>
+        <description>Name der Auftragstabelle</description>
+        <param-name>okstraJobliste</param-name>
+        <param-value>auftrag</param-value>
+    </context-param>
+    <context-param>
+        <description>Textpool verwenden</description>
+        <param-name>okstraTxtpool</param-name>
+        <param-value>1</param-value>
+    </context-param>
+    <servlet>
+        <description>OKSTRA Upload Manager</description>
+        <display-name>Okstra2DbServlet</display-name>
+        <servlet-name>Okstra2DbServlet</servlet-name>
+        <servlet-class>de.vermdb.okstra.okstra2db.Okstra2DbServlet</servlet-class>
+        <init-param>
+            <description>Resource Name OKSTRA-Datenbank</description>
+            <param-name>okstra_database</param-name>
+            <param-value>jdbc/OKSTRA-DB</param-value>
+        </init-param>
+        <init-param>
+            <description>Resource Name Service-Datenbank</description>
+            <param-name>svc_vermdb</param-name>
+            <param-value>jdbc/SVC-VERMDB</param-value>
+        </init-param>
+        <!-- Optional: Datenbanken für Altdaten und Planung, jeweils mit ResourceLink in
+             META-INF/context.xml und den Init-Parametern okstraVersionAltdaten bzw.
+             okstraVersionPlanung. Ohne Angabe arbeitet der Dienst nur mit dem Bestand.
+        <init-param>
+            <description>Resource Name OKSTRA-Altdaten</description>
+            <param-name>okstra_data_alt</param-name>
+            <param-value>jdbc/OKSTRA-ALT</param-value>
+        </init-param>
+        <init-param>
+            <description>Resource Name Service-Altdaten</description>
+            <param-name>svc_vermdb_alt</param-name>
+            <param-value>jdbc/SVC-ALT</param-value>
+        </init-param>
+        <init-param>
+            <description>Resource Name OKSTRA-Planung</description>
+            <param-name>okstra_data_planung</param-name>
+            <param-value>jdbc/OKSTRA-PLANUNG</param-value>
+        </init-param>
+        <init-param>
+            <description>Resource Name Service-Planung</description>
+            <param-name>svc_vermdb_planung</param-name>
+            <param-value>jdbc/SVC-PLANUNG</param-value>
+        </init-param>
+        -->
+        <init-param>
+            <description>Schema Name Service-Datenbank</description>
+            <param-name>svc_schema</param-name>
+            <param-value>oks_meta</param-value>
+        </init-param>
+        <init-param>
+            <description>Rückgabetyp (JSON/PLAIN)</description>
+            <param-name>returnFormat</param-name>
+            <param-value>JSON</param-value>
+        </init-param>
+        <init-param>
+            <description>OKSTRA-Version in der Datenbank</description>
+            <param-name>okstraVersionDatabase</param-name>
+            <param-value>2.022</param-value>
+        </init-param>
+        <!-- zu den optionalen Datenbanken für Altdaten und Planung (siehe oben)
+        <init-param>
+            <description>OKSTRA-Version in der Datenbank - Altdaten</description>
+            <param-name>okstraVersionAltdaten</param-name>
+            <param-value>2.017</param-value>
+        </init-param>
+        <init-param>
+            <description>OKSTRA-Version in der Datenbank - Planung</description>
+            <param-name>okstraVersionPlanung</param-name>
+            <param-value>2.022</param-value>
+        </init-param>
+        -->
+        <init-param>
+            <description>Lagesystem in der Datenbank</description>
+            <param-name>okstraLagesystem</param-name>
+            <param-value>UTM32</param-value>
+        </init-param>
+        <init-param>
+            <description>Höhensystem in der Datenbank</description>
+            <param-name>okstraHoehensystem</param-name>
+            <param-value>DHHN2016</param-value>
+        </init-param>
+        <init-param>
+            <description>Liste der zu lesenden OKSTRA-Versionen</description>
+            <param-name>okstraVersionRead</param-name>
+            <param-value>|1.007|1.008|1.009|1.010|1.011|1.012|1.013|1.014|1.015|2.016|2.017|2.018|2.019|2.020|2.021|2.022|</param-value>
+        </init-param>
+        <init-param>
+            <description>Liste der zu schreibenden OKSTRA-Versionen</description>
+            <param-name>okstraVersionWrite</param-name>
+            <param-value>|2.016|2.017|2.018|2.019|2.020|2.021|2.022|</param-value>
+        </init-param>
+        <init-param>
+            <description>OKSTRA-Version in Kopfdaten</description>
+            <param-name>okstraVersionHeader</param-name>
+            <param-value>1</param-value>
+        </init-param>
+        <init-param>
+            <description>Kopfdaten in Metadatenschema</description>
+            <param-name>headerInMetadata</param-name>
+            <param-value>1</param-value>
+        </init-param>
+        <init-param>
+            <description>Backend für OkWS</description>
+            <param-name>okstraWSbackend</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        <init-param>
+            <description>Portnummer für OkWS</description>
+            <param-name>okstraWSport</param-name>
+            <param-value>24643</param-value>
+        </init-param>
+        <init-param>
+            <description>Default Response für OkWS</description>
+            <param-name>okstraWSresponse</param-name>
+            <param-value>C:/Vermessungsdatenbank/okws/beispiel-wfs.xml</param-value>
+        </init-param>
+        <init-param>
+            <description>Verbose logging</description>
+            <param-name>verboseLogging</param-name>
+            <param-value>1</param-value>
+        </init-param>
+        <load-on-startup>5</load-on-startup>
+        <!-- Grenzen für Uploads in Bytes; ohne Angabe 400 MB je Datei, 500 MB je
+             Anfrage, Zwischenspeicher auf der Platte ab 3 MB -->
+        <multipart-config>
+            <max-file-size>2147483647</max-file-size>
+            <max-request-size>2147483647</max-request-size>
+            <file-size-threshold>0</file-size-threshold>
+        </multipart-config>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Okstra2DbServlet</servlet-name>
+        <url-pattern>/Okstra2DbServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

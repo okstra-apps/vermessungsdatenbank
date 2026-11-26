@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Zugangsdaten und OKLABI-Dateien, nicht ins Repository
+.env
+oklabi/*
+!oklabi/README.md
+# Datenverzeichnis der Installation (VERMDB_DATEN, ohne Angabe hier)
+daten/
+# Eigene Gitterdateien (siehe gitter/README.md)
+gitter/*
+!gitter/README.md
+# Eigene Fachbedeutungslisten (siehe fbliste/README.md)
+fbliste/*
+!fbliste/README.md

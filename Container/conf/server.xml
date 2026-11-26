@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+  SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<!-- server.xml des Containers. Die Datenquellen tragen die globalen Namen, auf die
+     META-INF/context.xml der Webanwendung verweist; beide zeigen auf dieselbe Datenbank
+     (Schemas der OKSTRA-Daten und oks_meta). Adresse und Zugang kommen aus den
+     Umgebungsvariablen VERMDB_DB_URL, VERMDB_DB_BENUTZER und VERMDB_DB_PASSWORT
+     (EnvironmentPropertySource, gesetzt in bin/setenv.sh). -->
+<Server port="-1" shutdown="SHUTDOWN">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+  <GlobalNamingResources>
+    <Resource name="de.ii.datasource.okstra-db" scope="Shareable"
+              auth="Container" type="javax.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              url="${VERMDB_DB_URL}" username="${VERMDB_DB_BENUTZER}" password="${VERMDB_DB_PASSWORT}"
+              maxIdle="1"/>
+    <Resource name="de.ii.datasource.svc-vermdb" scope="Shareable"
+              auth="Container" type="javax.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              url="${VERMDB_DB_URL}" username="${VERMDB_DB_BENUTZER}" password="${VERMDB_DB_PASSWORT}"
+              maxIdle="1"/>
+  </GlobalNamingResources>
+  <Service name="Catalina">
+    <Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" />
+    <Engine name="Catalina" defaultHost="localhost">
+      <Host name="localhost" appBase="webapps" unpackWARs="false" autoDeploy="false">
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
+               prefix="localhost_access_log" suffix=".txt"
+               pattern="%h %l %u %t &quot;%r&quot; %s %b" />
+      </Host>
+    </Engine>
+  </Service>
+</Server>

@@ -1,0 +1,6 @@
+Status 1012100
+
+
+DBVerbindung: DatenÄndern(string) fehlgeschlagen! ERROR: syntax error at or near "16"
+Fehler bei Übernahme eines Fachobjekte mit der Kennung <N>
+Fehler bei Übertragung des Fachobjekts <N>. Die Übertragung des Bestandes wird abgebrochen.

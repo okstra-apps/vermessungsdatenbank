@@ -1,0 +1,6 @@
+Namensraum: http://www.okstra.de/okstra/2.022
+Lagesysteme: urn:adv:crs:DE_42-83_3GK4*urn:adv:crs:DE_DHHN2016_NH
+allgemeines_Linienobjekt: 2
+
+allgemeines_Linienobjekt | Liniengeometrie=[4481825.547 5739934.348 60.000, 4481834.983 5739930.697 61.000, 4481844.557 5739927.908 62.000] | fachliche_Bedeutung=0484.0000
+allgemeines_Linienobjekt | Liniengeometrie=[4481826.512 5739936.931 70.000, 4481835.156 5739934.692 71.000, 4481843.972 5739931.765 72.000] | fachliche_Bedeutung=0000.X999

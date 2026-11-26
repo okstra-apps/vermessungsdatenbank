@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+SPDX-License-Identifier: AGPL-3.0-or-later
+
+Protokoll der Vermessungsdatenbank auf der Konsole (catalina.out bzw. docker compose logs),
+im selben Format und in derselben Zeitzone wie das Protokoll Svc_<Zeit>.log, das das Servlet
+beim Start selbst einrichtet. Die Stufe setzt das Servlet (DEBUG).
+-->
+<Configuration status="warn">
+    <Appenders>
+        <Console name="Konsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p: %m%n" charset="UTF-8"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Konsole"/>
+        </Root>
+    </Loggers>
+</Configuration>
