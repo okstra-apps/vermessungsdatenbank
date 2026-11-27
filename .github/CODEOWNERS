@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Code Owner für das ganze Repository; Pull-Requests brauchen die Freigabe
+# eines von ihnen (Ruleset für den Standardzweig).
+* @cportele @mfinis @hettwer300
