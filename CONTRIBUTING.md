@@ -120,6 +120,8 @@ mit dem Werkzeug `reuse`:
     reuse lint
     docker run --rm -v "$PWD:/data" fsfe/reuse lint      # ohne Installation
 
+**Prüfungen im Pull-Request.** Jeder Pull-Request durchläuft neben der DCO-Prüfung `reuse lint` und den Bau mit den Unit-Tests (`./gradlew build` mit den Jars des OKLABI-Release, `.github/workflows/pruefung.yml`). Alle drei müssen bestehen, bevor der Pull-Request übernommen wird. Die Integrationstests laufen dort nicht; wer Schnittstelle oder Datenbankzugriff ändert, führt sie vorher selbst aus.
+
 ## Versionen
 
 Die Versionen folgen [Semantic Versioning 2.0.0](https://semver.org/lang/de/):
