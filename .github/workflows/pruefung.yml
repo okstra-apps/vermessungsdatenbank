@@ -1,0 +1,55 @@
+# SPDX-FileCopyrightText: 2026 interactive instruments GmbH
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Prüfung von Pull-Requests und main: Lizenzangaben nach REUSE, Bau mit Unit-Tests
+# (CONTRIBUTING.md). Die Integrationstests brauchen Docker Compose und laufen hier nicht.
+# Actions sind auf Commits festgelegt; die Version steht jeweils dahinter.
+
+name: Prüfung
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  reuse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: fsfe/reuse-action@676e2d560c9a403aa252096d99fcab3e1132b0f5 # v6.0.0
+
+  bau:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6.3.0
+        with:
+          distribution: temurin
+          java-version: 25
+      # prüft auch die Prüfsumme des Gradle Wrapper
+      - uses: gradle/actions/setup-gradle@8da46b539cd8fe6ab27ca75128919a18d757604c # v6.4.1
+      # Die Jars des OKLABI-Release lädt der Bau jedes Mal frisch von okstra.de und prüft
+      # die Prüfsummen aus gradle.properties.
+      - name: Bau und Unit-Tests
+        run: ./gradlew build -PoklabiVariante=release
+      - name: Testberichte
+        if: failure()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: testberichte
+          path: DatenbankLader/build/reports/tests/
+          retention-days: 14
